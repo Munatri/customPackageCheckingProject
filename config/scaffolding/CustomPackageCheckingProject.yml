@@ -7,6 +7,8 @@ packages:
   gitUrl: https://github.com/Munatri
   gitUsername: Munatri
   gitBranch: main
+- name: customDefaultInGit
+  gitBranch: master
 configurationVariables:
   jdbc.SAP TxStore Pool.maxConns: "10"
   jdbcfunc.SAPTxStore.failFastMode: false
