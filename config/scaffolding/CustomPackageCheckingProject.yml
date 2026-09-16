@@ -29,10 +29,6 @@ services:
   packages:
   - name: WmPublic
     version: 12.1.0.0.1135
-- serviceName: pub.flow:debugLog
-  packages:
-  - name: WmPublic
-    version: 12.1.0.0.1135
 - serviceName: project.custompackagechecking.integrations:testdaf
   packages:
   - name: CustomPackageCheckingProject
@@ -42,6 +38,10 @@ services:
   - name: customDefaultInGit
     version: "1.0"
 - serviceName: pub.math:addInts
+  packages:
+  - name: WmPublic
+    version: 12.1.0.0.1135
+- serviceName: pub.flow:debugLog
   packages:
   - name: WmPublic
     version: 12.1.0.0.1135
