@@ -33,6 +33,14 @@ services:
   packages:
   - name: WmPublic
     version: 12.1.0.0.1135
+- serviceName: project.custompackagechecking.integrations:daf3
+  packages:
+  - name: CustomPackageCheckingProject
+    version: "1.0"
+  - name: customGitInGit
+    version: "1.0"
+  - name: customDefaultInGit
+    version: "1.0"
 - serviceName: project.custompackagechecking.integrations:testdaf
   packages:
   - name: CustomPackageCheckingProject
