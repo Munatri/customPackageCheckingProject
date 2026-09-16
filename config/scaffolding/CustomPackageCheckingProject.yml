@@ -69,6 +69,14 @@ services:
     version: "1.0"
   - name: customDefaultInGit
     version: "1.0"
+- serviceName: project.custompackagechecking.integrations:daf7
+  packages:
+  - name: CustomPackageCheckingProject
+    version: "1.0"
+  - name: customGitInGit
+    version: "1.0"
+  - name: customDefaultInGit
+    version: "1.0"
 - serviceName: project.custompackagechecking.integrations:testdaf
   packages:
   - name: CustomPackageCheckingProject
